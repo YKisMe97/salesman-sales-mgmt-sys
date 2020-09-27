@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.CompanyID"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/toolbar" />
+
+    <TextView
+        android:id="@+id/companyID"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:text="Please enter your company ID" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Company ID:" />
+
+    <EditText
+        android:id="@+id/joinCompanyID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="e.g: 1123123"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password:" />
+
+    <EditText
+        android:id="@+id/joinPasscode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/join_submit"
+        android:layout_width="131dp"
+        android:layout_height="50dp"
+        android:text="JOIN" />
+
+</LinearLayout>
